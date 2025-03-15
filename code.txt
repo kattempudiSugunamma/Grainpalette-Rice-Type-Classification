@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rice Type Classifier</title>
+</head>
+<body>
+    <h2>Upload an image to classify the rice type</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
